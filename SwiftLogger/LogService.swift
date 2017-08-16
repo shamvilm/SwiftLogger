@@ -2,14 +2,14 @@
 //  LogService.swift
 //  SwiftLogger
 //
-//  Created by Shamvil on 11/08/17.
+//  Created by Shamvil on 16/08/17.
 //  Copyright © 2017 qburst. All rights reserved.
 //
 
 import UIKit
 
 class LogService: NSObject {
-
+    
     public class func logError(logMessage: String, fileName: String = #file, functionName: String = #function) {
         setLogEvent(message: logMessage, logEvent: LogEvent.e.rawValue, fileName: fileName, functionName: functionName)
     }

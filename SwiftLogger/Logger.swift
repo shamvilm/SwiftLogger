@@ -2,7 +2,7 @@
 //  Logger.swift
 //  SwiftLogger
 //
-//  Created by Shamvil on 07/08/17.
+//  Created by Shamvil on 16/08/17.
 //  Copyright © 2017 qburst. All rights reserved.
 //
 
@@ -135,4 +135,3 @@ enum LogEvent: String {
     case d = "Degug"
     case w = "Warning"
 }
-

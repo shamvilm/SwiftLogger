@@ -12,6 +12,8 @@
 		EF4371851F444A610078AE36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4371831F444A610078AE36 /* Main.storyboard */; };
 		EF4371871F444A610078AE36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4371861F444A610078AE36 /* Assets.xcassets */; };
 		EF43718A1F444A610078AE36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4371881F444A610078AE36 /* LaunchScreen.storyboard */; };
+		EF43719A1F444D010078AE36 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4371991F444D010078AE36 /* Logger.swift */; };
+		EF43719C1F444D680078AE36 /* LogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43719B1F444D680078AE36 /* LogService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EF4371861F444A610078AE36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4371891F444A610078AE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF43718B1F444A610078AE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4371991F444D010078AE36 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		EF43719B1F444D680078AE36 /* LogService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				EF43717F1F444A610078AE36 /* AppDelegate.swift */,
 				EF4371811F444A610078AE36 /* ViewController.swift */,
+				EF4371991F444D010078AE36 /* Logger.swift */,
+				EF43719B1F444D680078AE36 /* LogService.swift */,
 				EF4371831F444A610078AE36 /* Main.storyboard */,
 				EF4371861F444A610078AE36 /* Assets.xcassets */,
 				EF4371881F444A610078AE36 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4371821F444A610078AE36 /* ViewController.swift in Sources */,
+				EF43719A1F444D010078AE36 /* Logger.swift in Sources */,
+				EF43719C1F444D680078AE36 /* LogService.swift in Sources */,
 				EF4371801F444A610078AE36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +305,7 @@
 				EF4371901F444A610078AE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
